@@ -79,7 +79,7 @@ export default function Layout({ children, categories }) {
           <span className="block text-gray-700 text-xs">Copyright © 2021 JAMstack Ecommerce. All rights reserved.</span>
           <div className="
             sm:justify-end sm:m-0
-            flex flex-1 mt-4
+            flex flex-1 mt-4 invisible
           ">
             <Link href="/admin">
               <a aria-label="Admin panel">
