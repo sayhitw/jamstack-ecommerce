@@ -3,6 +3,7 @@ import { Center, Footer, Tag, Showcase, DisplaySmall, DisplayMedium } from '../c
 import { titleIfy, slugify } from '../utils/helpers'
 import { fetchInventory } from '../utils/inventoryProvider'
 import CartLink from '../components/CartLink'
+import MainSlider from '../components/MainSlider'
 
 const Home = ({ inventoryData = [], categories: categoryData = [] }) => {
   const inventory = inventoryData.slice(0, 4)
@@ -11,6 +12,7 @@ const Home = ({ inventoryData = [], categories: categoryData = [] }) => {
   return (
     <>
       <CartLink />
+      <MainSlider />
       <div className="w-full">
         <Head>
           <title>Jamstack ECommerce</title>
