@@ -29,3 +29,61 @@
 .Toastify__progress-bar--default {
   background: #89bdf9 !important;
 }
+
+.d-flex {
+  display: flex;
+}
+
+.justify-content-around {
+  justify-content: space-around !important;
+}
+
+.navbar {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+}
+
+.fixed-bottom {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1030;
+}
+
+.bottom-tab-nav {
+  border-top: solid 1px #EBEBEB;
+  background-color: white;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.w-100 {
+  width: 100% !important;
+}
+
+.align-items-center {
+  align-items: center !important;
+}
+
+.justify-content-center {
+  justify-content: center !important;
+}
+
+.flex-column {
+  flex-direction: column !important;
+}
+
+.bottom-tab-label {
+  font-size: 12px;
+}
